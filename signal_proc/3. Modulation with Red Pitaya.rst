@@ -148,7 +148,7 @@ frequency w.r.t. the sampling frequency. This is done by the relation
    \widehat{\omega} = \omega T_{s} = \frac{2\pi f}{f_{s}}\ \#(8) \\
    \end{matrix}
    
-Where :math:`\omega = 2\pi f,\ and\ T_{s} = 1\backslash f_{s}\ is\ the\ sampling\ time.\`\ This representation is oftentimes used in discrete time systems as it allows for the consideration of systems in reference to the total bandwidth of the discrete system.
+Where :math:`\omega = 2\pi f` and :math:`T_{s} = 1/f_{s}` is the sampling time. This representation is oftentimes used in discrete time systems as it allows for the consideration of systems in reference to the total bandwidth of the discrete system.
 
 Tasks/Questions
 ===================
