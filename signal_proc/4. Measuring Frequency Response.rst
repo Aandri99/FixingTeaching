@@ -272,7 +272,7 @@ Where :math:`j = \sqrt{- 1}` is the imaginary unit.
 
 3. What class (low-pass, high-pass, band-pass, band-stop) of filter is
    this? (This is equivalent to asking what happens to
-    :math:`\left| T(f) \right|` as :math:`f` gets lower or higher?
+   :math:`\left| T(f) \right|` as :math:`f` gets lower or higher?)
 
 4. At what frequency does
    :math:`\left| T(f) \right| = \frac{1}{\sqrt{2}} \approx 0.707`? (This
