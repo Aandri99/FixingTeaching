@@ -42,7 +42,7 @@ BJTs have numerous applications in modern electronics. They can be found in a wi
 
 
 BJT Circuit Configurations: Common Emitter, Common Collector, and Common Base
---------------------------------------------
+------------------------------------------------------------------------------
 Transistor circuits can be configured in various ways depending on the desired functionality. The three most common configurations for bipolar junction transistors (BJTs) are the common emitter, common collector, and common base configurations. Each configuration has its own unique properties and applications in electronic circuits. In this section, we will discuss the characteristics and uses of these configurations.
 
 **Common Emitter Configuration**
@@ -102,7 +102,7 @@ The semiconductor material is also doped to create source and drain regions, whi
 The unique construction of FETs enables them to offer several advantages over BJTs, such as high input impedance, smaller device size, and better radiation tolerance. Their distinct structure allows them to be efficiently utilized in a variety of electronic applications, from digital circuits and low-noise amplifiers to high-power motor control and power electronics.
 
 FET Circuit Configurations: Common Source, Common Drain, and Common Gate
-=================================
+========================================================================
 Field-Effect Transistors (FETs) are another type of transistor that can be configured in various ways. The three most common configurations for FETs are the common source, common drain, and common gate configurations. Each configuration has its own unique properties and applications in electronic circuits.
 
 **Common Source Configuration**
@@ -142,7 +142,7 @@ In the common gate configuration, the gate terminal of the FET is shared or "com
 *Common gate circuits are often used in high-frequency amplifiers, such as radio frequency (RF) amplifiers, due to their high voltage gain and good frequency response characteristics.*
 
 Aplication of Transistors
-=======================
+==========================
 
 Transistors are versatile and fundamental components in modern electronic devices and systems. They have various applications across numerous fields, owing to their amplification, switching, and signal processing capabilities. Here are some of the primary uses of transistors:
 
@@ -175,7 +175,7 @@ The wide range of applications demonstrates the versatility and importance of tr
 
 
 Hands-on Experiment: Design a common emmiter transistor amplifier
-============================
+==================================================================
 To design a common emitter amplifier using a 2N3904 transistor that amplifies a 0.1V, 1000 Hz sine wave input to a 1.5V P2P output with a 5V Red Pitayas Power supply pin, we need to calculate appropriate resistor values to achieve the desired gain while ensuring proper transistor biasing and operation. A typical common emittor amplifier schematics:
 
 .. image:: img/14.6.png
@@ -308,4 +308,4 @@ There can be several reasons for this discrepancy, such as component tolerances,
 
 Written by Andraž Pirc
 
-This teaching material was created by `Red Pitaya https://www.redpitaya.com/
+This teaching material was created by `Red Pitaya https://www.redpitaya.com/`
