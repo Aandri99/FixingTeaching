@@ -35,6 +35,7 @@ thus allowing:
    \begin{matrix}
    x_{1}(t)x_{2}(t) = \frac{A_{1}A_{2}}{2}\left\lbrack \cos\left( \omega_{1}t + \phi_{1} - \left\lbrack \omega_{2}t + \phi_{2} \right\rbrack \right) + cos\left( \omega_{1}t + \phi_{1} + \left\lbrack \omega_{2}t + \phi_{2} \right\rbrack \right) \right\rbrack\ \#(3) \\
    \end{matrix}
+
 This shows that:
 
 a. We generate data at the sum and difference frequencies
@@ -48,7 +49,7 @@ In most mixing applications, the results of a mixer are then filtered to
 only include either the sum or the difference frequency.
 
 AM modulation
-============
+===============
 Amplitude modulation (AM) is a simple yet effective modulation scheme where the message signal (information to be sent) changes the amplitude of a faster "carrier" signal. The carrier signal is the base waveform that is modified to carry the information. It is typically a high-frequency sinusoid, chosen because it can easily propagate through space as a radio wave.
 
 Amplitude modulation involves using a message signal (bandlimited to :math:`f_{m}`) to
@@ -67,7 +68,7 @@ modulated signal some phase :math:`\phi`.
    \end{matrix}
 
 Dual Side Band (DSB) Modulation
----------------------------
+--------------------------------
 In Dual Side Band modulation, both the upper and lower sidebands are transmitted. This effectively doubles the bandwidth required for transmission. DSB modulation is relatively straightforward, but is not the most efficient in terms of bandwidth utilization.
 
 Employing the simplest mixing, we simply multiple the carrier (denoted
@@ -147,8 +148,7 @@ frequency w.r.t. the sampling frequency. This is done by the relation
    \widehat{\omega} = \omega T_{s} = \frac{2\pi f}{f_{s}}\ \#(8) \\
    \end{matrix}
    
-Where
-:math:`\omega = 2\pi f,\ and\ T_{s} = 1\backslash f_{s}\ is\ the\ sampling\ time.\`\ This representation is oftentimes used in discrete time systems as it allows for the consideration of systems in reference to the total bandwidth of the discrete system.
+Where :math:`\omega = 2\pi f,\ and\ T_{s} = 1\backslash f_{s}\ is\ the\ sampling\ time.\`\ This representation is oftentimes used in discrete time systems as it allows for the consideration of systems in reference to the total bandwidth of the discrete system.
 
 Tasks/Questions
 ===================
