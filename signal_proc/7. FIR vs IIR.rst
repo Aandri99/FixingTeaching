@@ -160,7 +160,7 @@ This shows that all :math:`b_{k}` values are 1, and that
    a. Square wave within the filter bandwidth
 
    .. image:: media/image7.4.jpeg
-      :alt: PitayaScreenshotSquareWave
+      :name: PitayaScreenshotSquareWave
       :align: middle
 
    b. Square wave outside of the filter bandwidth
