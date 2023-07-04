@@ -248,7 +248,7 @@ Build the Single stage RC circuit shown in Fig. 2, with
     :align: center
 
 .. image:: media/image4.8.jpeg
-    :name: Breadboardcircuit
+    :name: Breadboardcircuitx
     :align: center  
 
 Fig. 2: (left) schematic of the single stage RC circuit, (right)
@@ -272,7 +272,7 @@ Where :math:`j = \sqrt{- 1}` is the imaginary unit.
 
 3. What class (low-pass, high-pass, band-pass, band-stop) of filter is
    this? (This is equivalent to asking what happens to
-   :math:`\left| T(f) \right|` as :math:`f\`\ gets lower or higher?)
+    :math:`\left| T(f) \right|` as :math:`f` gets lower or higher?
 
 4. At what frequency does
    :math:`\left| T(f) \right| = \frac{1}{\sqrt{2}} \approx 0.707`? (This
@@ -294,9 +294,6 @@ response (:math:`\left| T(f) \right|`).
 1. Connect the Red Pitaya to the circuit, also known as the Device Under
    Test (DUT)), as shown below
 
-    .. image:: media/image4.9.png
-        :name: PitayaSchematic
-        :align: center
 
     .. image:: media/image4.9.png
         :name: PitayaSchematic
@@ -305,9 +302,6 @@ response (:math:`\left| T(f) \right|`).
 
 2. Connect to the Red Pitaya and select the Bode Analyzer tool.
 
-    .. image:: media/image4.10.png
-        :name: Menu
-        :align: center
 
     .. image:: media/image4.10.png
         :name: Menu
@@ -521,7 +515,7 @@ Build the RC circuit shown in below, with
 :math:`R_{1} = R_{2} = 10k\Omega`,\ :math:`\ C_{1} = C_{2} = 4.7nF`.
 
 .. image:: media/image4.19.png
-    :name: Spice4
+    :name: Spice4x
     :align: center
 
 .. image:: media/image4.20.jpeg
