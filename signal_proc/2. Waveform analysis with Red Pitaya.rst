@@ -35,7 +35,7 @@ Practical Tasks
 For the practical tasks, we will be using the Red Pitaya's web applications and MATLAB to analyze external waveforms. The tasks involve exploring the audio DAC's bandwidth, observing the effects of bit depth and quality, analyzing waveforms from USB soundcards and PC soundcards, examining the Red Pitaya's own DAC for quantization artifacts, and quantifying crosstalk between input channels.
 
 Single channel analysis
-===================
+========================
 **For all of this analysis, set the second channel to output all zeros
 in MATLAB, as described in the slides and class time instruction.**
 
