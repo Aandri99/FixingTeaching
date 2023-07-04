@@ -20,6 +20,7 @@ employ two sinusoids.
    \begin{matrix}
    x_{1}(t) = A_{1}\cos\left( \omega_{1}t + \phi_{1} \right)x_{2}(t) = A_{2}\cos\left( \omega_{2}t + \phi_{2} \right)\ \#(1) \\
    \end{matrix}
+
 Multiplying these two is made simple by invoking the well known trig
 identity:
 
@@ -27,6 +28,7 @@ identity:
    \begin{matrix}
    \cos(x)\cos(y) = \frac{1}{2}\left\lbrack \cos(x - y) + cos(x + y) \right\rbrack\#(2) \\
    \end{matrix}
+
 thus allowing:
 
 .. math::
