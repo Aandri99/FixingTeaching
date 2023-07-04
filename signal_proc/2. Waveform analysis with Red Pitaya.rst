@@ -35,12 +35,12 @@ Practical Tasks
 For the practical tasks, we will be using the Red Pitaya's web applications and MATLAB to analyze external waveforms. The tasks involve exploring the audio DAC's bandwidth, observing the effects of bit depth and quality, analyzing waveforms from USB soundcards and PC soundcards, examining the Red Pitaya's own DAC for quantization artifacts, and quantifying crosstalk between input channels.
 
 Single channel analysis
------------------------
+===================
 **For all of this analysis, set the second channel to output all zeros
 in MATLAB, as described in the slides and class time instruction.**
 
 Audio DAC Bandwidth
-^^^^^^^^^^^^^^^^^^^
+===================
 Audio devices have bandwidth limits typically in the range of 20kHz due to their sample rate. In this task, we will experimentally observe this limitation using a pure sine wave tone with sufficient amplitude.
 
 1. Show at least one plot demonstrating aliasing in the time domain, and
@@ -80,8 +80,7 @@ frequency.
 +-----------------------------------------------------------------------+
 
 Audio DAC Bit depth and quality
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+======================================
 In addition to a sample rate, Audio DACs have a known number of
 quantized states. We will observe how this can appear by using multiple
 DACs, and why the rule of thumb of more bits is better is usually true.
@@ -91,7 +90,7 @@ For all tests, use a sinewave excitation signal with a frequency of
 frequency domains.
 
 USB Soundcard
-^^^^^^^^^^^^^
+======================================
 
 a) Time domain
 
@@ -102,8 +101,7 @@ b) Frequency Domain
 *The frequency domain analysis will allow us to identify the frequency components and their magnitudes in the captured waveforms.*
 
 (optional) Higher frequency output
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+======================================
 As an optional demonstration, set the output frequency to be 10kHz on
 the Soundcard. Comment as to what appears to be occurring, and if there
 is any unusual behavior observed. Speculate as to the origin of the
@@ -118,14 +116,14 @@ b) Frequency Domain
 *The frequency domain analysis will reveal the spectral content of the captured waveforms at the higher frequency. This can help identify any additional frequency components or changes in the magnitude distribution.*
 
 PC Soundcard
-^^^^^^^^^^^^
+===================
 
 a) Time domain
 
 b) Frequency Domain
 
 (Optional) Red Pitaya Output
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+======================================
 
 The Red Pitaya also has a DAC, which is what the analog outputs employ.
 We have already viewed some of the signals of the Red Pitaya before, but
@@ -143,13 +141,13 @@ f) Frequency Domain
 *The frequency domain analysis will allow us to observe any additional frequency components, distortions, or noise introduced by quantization artifacts in the Red Pitaya's output signal.*
 
 Dual Channel analysis
----------------------
+======================================
 
 **For all of this analysis, both channels will have non-zero values in
 MATLAB.**
 
 Cross talk
-^^^^^^^^^^
+===================
 
 We previously observed the effect of cross talk between input channels
 of the red pitaya. Let’s try to better quantify this now that we can
@@ -181,6 +179,5 @@ on any observed asymmetry.
 
 Conclusion
 ================
-
 In conclusion, the Red Pitaya serves as a versatile platform for measuring external waveforms. Through the tasks and analyses conducted, we gained insights into bandwidth limitations, the impact of bit depth on waveform quality, characteristics of different soundcard outputs, and the quantification of cross talk effects. This knowledge enhances our understanding of discrete time systems and enables accurate signal measurements and analysis. The Red Pitaya's capabilities empower us to explore and experiment with waveforms, contributing to advancements in signal processing and analysis.
 
