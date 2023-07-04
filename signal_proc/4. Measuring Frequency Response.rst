@@ -307,13 +307,13 @@ response (:math:`\left| T(f) \right|`).
         :name: Menu
         :align: center
 
-   A more detailed description of the Bode analyzer can be found here: |bode_analyzer|
+   A more detailed description of the Bode analyzer can be found here: `Bode Analyzer <https://redpitaya.readthedocs.io/en/latest/appsFeatures/applications/bode/bode.html/>`_
 
 3. Click on the settings box to access the sweep settings
 
-    .. image:: media/image4.11.png
-        :name: settings1
-        :align: center
+.. image:: media/image4.11.png
+    :name: settings1
+    :align: center
 
 4. Configure the settings as shown below, we will find new sweep values
    as we go on, but these should be safe values to try
@@ -647,7 +647,7 @@ Respond to the following questions:
    you previously calculated.
    
 Questions and Answers
------------------
+-------------------------
 
 What is the magnitude of the transfer function?
 
