@@ -10,7 +10,7 @@ Each section of this guide includes an objective, background information, equati
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth:1
    
    ./Chapter3/1_resistors_doc
    ./Chapter3/2_transient_response_doc
