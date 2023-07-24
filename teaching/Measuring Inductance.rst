@@ -76,12 +76,12 @@ don't want in our circuits.
 
 
 Stray and Parasitic Inductance: Common Obstacles in Inductance Measurement
-==============================
+============================================================================================
 Parasitic and stray inductances are unintentional and often undesirable inductive effects that occur in electronic circuits. They can lead to performance issues, inaccuracies in measurements, and signal degradation. Both types of inductance arise from the physical layout and design of a circuit, including the arrangement and proximity of conductive traces, components, and wiring. In this brief introduction, we will discuss the origins and potential impacts of parasitic and stray inductances on electronic circuits.
 
 
 Stray Inductance and its Impact on Circuit Performance
---------------------------------
+-------------------------------------------------------
 Stray inductance is an unintended and often undesirable inductive effect that occurs in electronic circuits, causing potential performance issues and inaccuracies in measurements. This phenomenon is primarily caused by the physical layout of a circuit, including the spacing and arrangement of conductive traces, components, and wiring. In this brief introduction, we will discuss the origins of stray inductance and its potential impact on circuit performance.
 
 
@@ -100,7 +100,7 @@ Calibration is a crucial process that can help minimize the effect of stray indu
 Guard traces are an effective technique for isolating the object being measured from external conductive objects that may introduce stray inductance. By surrounding the measurement area with a conductive shield connected to a low-impedance ground, the guard trace can intercept stray magnetic fields and prevent them from affecting the measurement signal. This technique is especially useful in low-frequency applications, where the shield's inductance can be made sufficiently large to effectively isolate the measurement area from external influences.
 
 Parasitic Inductance and Techniques to Minimize its Effects
---------------------------------
+-------------------------------------------------------------
 Parasitic inductance is an undesired phenomenon in electronic circuits, stemming from unintentional inductance present in conductive traces, components, and other circuit elements. It arises due to the physical layout and design of a circuit and can cause a range of issues that degrade circuit performance, such as signal distortion, reduced bandwidth, and diminished signal-to-noise ratio. In this brief introduction, we will explore the origins of parasitic inductance, its impact on electronic circuits, and methods to minimize its effects.
 
 **Utilizing Low-Inductance Components**
@@ -175,7 +175,7 @@ Time Domain Reflectometry (TDR) is a technique that involves sending a fast-risi
 - May be limited by the bandwidth of the TDR instrument.
 
 Hands-on Experiment: Measuring Inductance with Red Pitaya using Impedance Measurement Method
-=======================================================================
+======================================================================================================
 The impedance measurement method is an effective way to measure the inductance of an inductor. It involves connecting the inductor in series with a known resistor and applying a sinusoidal voltage signal. The voltage across the resistor and the inductor is measured, and the inductance can be calculated using the impedance formula.
 
 In this experiment, we will measure the inductance of an unknown inductor using the impedance measurement method with a Red Pitaya board.
