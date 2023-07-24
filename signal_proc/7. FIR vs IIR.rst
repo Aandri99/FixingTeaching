@@ -317,13 +317,10 @@ b. Square wave outside of the filter bandwidth
    :align: middle
 
 .. |Diagram Description automatically generated| image:: media/image7.1.png
-   :align: middle
 
 .. |Chart Description automatically generated with medium confidence| image:: media/image7.2.png
-   :align: middle
 
 .. |Chart, line chart Description automatically generated| image:: media/image7.3.png
-   :align: middle
 
 
 Conclusion
