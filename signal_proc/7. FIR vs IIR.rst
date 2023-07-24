@@ -314,7 +314,7 @@ b. Square wave outside of the filter bandwidth
 
 .. image:: media/image7.13.jpeg
    :name: screenshotoutside
-   :align: middle
+   :align: center
 
 .. |Diagram Description automatically generated| image:: media/image7.1.png
 
