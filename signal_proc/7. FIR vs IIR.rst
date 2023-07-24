@@ -306,24 +306,24 @@ Enter the previously calculated transfer function into the Red Pitaya.
 
    a. Square wave within the filter bandwidth
 
-   .. image:: media/image7.12.jpeg
-      :name:screenshotwithin
-      :align: center
+.. image:: media/image7.12.jpeg
+   :name: screenshotwithin
+   :align: middle
 
     b. Square wave outside of the filter bandwidth
 
-    .. image:: media/image7.13.jpeg
-        :name: screenshotoutside
-        :align: center
+.. image:: media/image7.13.jpeg
+   :name: screenshotoutside
+   :align: middle
 
 .. |Diagram Description automatically generated| image:: media/image7.1.png
-   :align: center
+   :align: middle
 
 .. |Chart Description automatically generated with medium confidence| image:: media/image7.2.png
-   :align: center
+   :align: middle
 
 .. |Chart, line chart Description automatically generated| image:: media/image7.3.png
-   :align: center
+   :align: middle
 
 Conclusion
 ======================
