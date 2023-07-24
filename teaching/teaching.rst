@@ -12,11 +12,11 @@ Whether you are a student, hobbyist, or a professional, this guide provides a co
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     
-    Measuring_Uncertainty
-    Measuring_Capacitance
-    Measuring_Inductance
-    Measuring_Frequency
-    test_and_measure
-    measure_tech
+   ./Measuring Uncertainty.rst
+   ./Measuring Capacitance.rst
+   ./Measuring Inductance.rst
+   ./Measuring Frequency.rst
+   ./test_and_measure.rst
+   ./measure_tech
