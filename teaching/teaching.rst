@@ -19,4 +19,4 @@ Whether you are a student, hobbyist, or a professional, this guide provides a co
    ./Measuring Inductance.rst
    ./Measuring Frequency.rst
    ./test_and_measure.rst
-   ./measure_tech.rst
+
